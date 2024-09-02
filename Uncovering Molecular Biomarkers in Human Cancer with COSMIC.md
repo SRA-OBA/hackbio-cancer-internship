@@ -9,7 +9,7 @@
 **Uncovering Molecular Biomarkers in Human Cancer with COSMIC**
 
 Before the release of the Catalogue of Somatic Mutations in Cancer (COSMIC) in 2004, manual curation of gene profiles provided information about deep mutations associated with known cancer genes. Given the remarkable number of human cancer diseases (about 2500), there was an apparent need to classify, stratify, and curate the mutations and cancer genomes. In this way, there would be an excellent annotation to human genome annotations to identify events associated with cancer development (Forbes _et al.,_ 2014). This need led to the development of COSMIC (available at: https\://cancer.sanger.ac.uk/cosmic), a web server containing comprehensive resources to explore somatic mutations in human cancer.
-
+Image available at: https://docs.google.com/document/d/1YPPyF1ppJa3OoqQLtmdTiKtPjxxGYvhl/edit?usp=sharing&ouid=116316805025294831601&rtpof=true&sd=true
 Figure 1: Graphical representation of Data Sources, Acquisition, Curation, and Functionalities of the COSMIC Database (Adapted from Sońdka _et al.,_ 2023).
 
 The expert-curated database has evolved into an interactive webspace that enables researchers to interpret genomic data and understand the impact of somatic changes on diseases. As shown in Fig.1, data on the scientific database are sourced from scientific publications and large-scale systematic screens, which expert curators then check. These sets of data are then extracted and structured into categories, including Cancer Gene Census curation, Core Variant curation, and Actionability curation. Furthermore, the curated data are then annotated, with proper standardization, on other scientific servers such as ENSEMBLE, Protein Databank, and HUGO.
