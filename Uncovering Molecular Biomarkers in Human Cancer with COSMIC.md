@@ -1,10 +1,8 @@
-**Author: **Salaam Ridwan.
+**Author:** Salaam Ridwan
 
 **Submitted to:** HackBio
 
-**Date:** 02/09/2024****
-
-** **
+**Date:** 02/09/2024
 
 **Uncovering Molecular Biomarkers in Human Cancer with COSMIC**
 
@@ -15,7 +13,7 @@ Figure 1: Graphical representation of Data Sources, Acquisition, Curation, and F
 
 The expert-curated database has evolved into an interactive webspace that enables researchers to interpret genomic data and understand the impact of somatic changes on diseases. As shown in Fig.1, data on the scientific database are sourced from scientific publications and large-scale systematic screens, which expert curators then check. These sets of data are then extracted and structured into categories, including Cancer Gene Census curation, Core Variant curation, and Actionability curation. Furthermore, the curated data are then annotated, with proper standardization, on other scientific servers such as ENSEMBLE, Protein Databank, and HUGO.
 
-Cancer biologists benefit greatly from using COSMIC because it enables them to analyze large databases using computational analyses. These include COSMIC 3-D, Cancer Mutation Census, and Mutational Signatures. With COSMIC 3-D, researchers are able to integrate cancer mutations with protein structures across the human genome to understand how the mutations impact protein function, stability, and interaction (Alsulami _et al.,_ 2021). Meanwhile, the Cancer Mutation census serves as a catalog of genetic variants that contribute to cancer development. The catalog covers both rare and common mutations, which can be very useful in designing targeted therapies for different cancers (Cosmic, 2019). Researchers with an interest in characterizing patterns of DNA mutations across various cancers will find mutational signatures very useful on COSMIC. This tool enables users to gain insights into the underlying causes of mutations. These could be environmental factors, potential carcinogens, or pathways associated with carcinogenesis (Alexandrov _et al.,_ 2020). Other beneficial resources are Actionability, which indicates the available drugs for specific mutations in cancer, and Drug Resistance, focusing on the curation of mutations that enable cancerous cells to be resistant to existing treatments (Cosmic, 2019).&#x20;
+Cancer biologists benefit greatly from using COSMIC because it enables them to analyze large databases using computational analyses. These include COSMIC 3-D, Cancer Mutation Census, and Mutational Signatures. With COSMIC 3-D, researchers are able to integrate cancer mutations with protein structures across the human genome to understand how the mutations impact protein function, stability, and interaction (Alsulami _et al.,_ 2021). Meanwhile, the Cancer Mutation census serves as a catalog of genetic variants that contribute to cancer development. The catalog covers both rare and common mutations, which can be very useful in designing targeted therapies for different cancers (Cosmic, 2019). Researchers with an interest in characterizing patterns of DNA mutations across various cancers will find mutational signatures very useful on COSMIC. This tool enables users to gain insights into the underlying causes of mutations. These could be environmental factors, potential carcinogens, or pathways associated with carcinogenesis (Alexandrov _et al.,_ 2020). Other beneficial resources are Actionability, which indicates the available drugs for specific mutations in cancer, and Drug Resistance, focusing on the curation of mutations that enable cancerous cells to be resistant to existing treatments (Cosmic, 2019).
 
 Finally, COSMIC has been used in various studies since its inception. For instance, a study conducted by Sun et al. (2023) revealed KCNK1 as an overexpressed gene in breast cancer using a combination of The Cancer Genome Atlas (TCGA), Gene Set Enrichment Analysis (GSEA), COSMIC, and a host of other databases for data collection and visualization. Clearly, exploring and mastering the use of COSMIC is an important tool for budding and experienced cancer biologists to uncover molecular biomarkers.
 
