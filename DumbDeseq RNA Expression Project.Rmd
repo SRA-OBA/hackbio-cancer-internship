@@ -1,0 +1,47 @@
+---
+title: "R Notebook"
+output:
+  html_notebook: default
+  html_document:
+    df_print: paged
+  word_document: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+
+```{r}
+View(Data)
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+```
+```{r}
+# Create a Volcano plot
+ggplot(Data, aes(x = log2FoldChange, y = -log10(pvalue))) +
+  geom_point(aes(color = pvalue < 0.01 & abs(log2FoldChange) > 1), alpha = 0.5) +
+  scale_color_manual(values = c("grey", "red")) +
+  labs(title = "Volcano Plot", x = "Log2 Fold Change", y = "-Log10 P-value") +
+  theme_minimal()
+```
+```{r}
+# Upregulated genes
+upregulated_genes <- Data %>%
+  filter(log2FoldChange > 1 & pvalue < 0.01)
+
+# View upregulated genes
+print(upregulated_genes)
+```
+```{r}
+# Downregulated genes
+downregulated_genes <- Data %>%
+  filter(log2FoldChange < -1 & pvalue < 0.01)
+
+# View downregulated genes
+print(downregulated_genes)
+```
+
+
+
